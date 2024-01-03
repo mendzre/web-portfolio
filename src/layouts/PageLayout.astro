@@ -1,0 +1,21 @@
+---
+import type { IPageLayoutProps as Props } from "./types";
+import "@fontsource-variable/inter";
+import "@shared/styles.css";
+
+const { props } = Astro;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>{props.title}</title>
+    <meta name="description" content={props.description} />
+    <link rel="shortcut icon" href="#" type="image/x-icon" />
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>

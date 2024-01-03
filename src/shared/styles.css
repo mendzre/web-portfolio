@@ -1,0 +1,11 @@
+.button {
+  @apply px-6 py-4 text-base font-normal leading-none transition-colors rounded-full;
+}
+
+.button.button--fill {
+  @apply text-white bg-black border border-black;
+}
+
+.button.button--outline {
+  @apply text-black bg-white border border-black;
+}

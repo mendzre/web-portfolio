@@ -1,0 +1,12 @@
+---
+import type { ILinkButtonProps as Props } from "./types";
+const { props } = Astro;
+---
+
+<a
+  class={`button button--${props.variant}`}
+  href={props.href}
+  aria-label={props.ariaLabel}
+>
+  <slot />
+</a>
