@@ -1,5 +1,5 @@
 <script lang="ts">
-  import Button from "@atoms/Button.svelte";
+  import Button from "@atoms/Button/Button.svelte";
 
   function handleClick() {
     alert("Button has been clicked!");

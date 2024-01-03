@@ -1,5 +1,5 @@
 <script lang="ts">
-  import type { IButtonProps } from "./types";
+  import type { IButtonProps } from "../types";
   export let props: IButtonProps;
 </script>
 
